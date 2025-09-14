@@ -55,7 +55,7 @@
 * `FQDN`: Make A Veriable On Your Deploying Plartform AndAdd You Deployed Bot App Link
 * `AUTH_CHANNEL`: ID of force subscribe channels (Multiple channels can be used separated by space)
 * `CHANNELS`: Username or ID of your files channels (Multiple channels can be used separated by space)
-*  Before Deploying The Bot Fill All Veriables. Check [info.py](https://github.com/NBBotz/Auto_Filter_Bot/blob/SilentXBotz/info.py) For All Veriables.
+*  Before Deploying The Bot Fill All Veriables. Check [info.py](https://t.me/moviehub4u_update) For All Veriables.
 
 ## 🚀 Deployment Methods
 
@@ -67,7 +67,7 @@ Choose A Deployment Method Below And Get Your Bot Running Instantly!
 Click The Button Below To Instantly Deploy Your Bot On **Heroku**.  
 
 <p align="center">
-  <a href="https://heroku.com/deploy?template=https://github.com/NBBotz/Auto_Filter_Bot">
+  <a href="https://heroku.com/deploy?template=https://t.me/moviehub4u_update">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy on Heroku">
   </a>
 </p>
@@ -80,7 +80,7 @@ Click The Button Below To Instantly Deploy Your Bot On **Heroku**.
 Deploy On **Koyeb** In One Click!  
 
 <p align="center">
-  <a href="https://app.koyeb.com/deploy?type=git&repository=https://github.com/NBBotz/Auto_Filter_Bot&branch=SilentXBotz &name=LuciaFilterBot">
+  <a href="https://app.koyeb.com/deploy?type=git&repository=https://t.me/moviehub4u_update&branch=M◍viε⁠ ｡Hᴗ⁠b ｡4U &name=FilterBot">
     <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb">
   </a>
 </p>
@@ -108,7 +108,7 @@ python3 bot.py
 # ! Errors 
 - This Repository May Contain Some Errors. If You Encounter Any Issues, Please Let Us Know, And We Will Do Our Best To Resolve Them.
 <p align="center">
-  <a href="https://t.me/SilentXBotz_Support">
+  <a href="https://t.me/moviehub4u_update">
     <img src="https://img.shields.io/badge/Report-Error-red?style=for-the-badge&logo=telegram" alt="Report Error">
   </a>
 </p>
@@ -116,8 +116,8 @@ python3 bot.py
 
 # 📌 Credits  
 
-- **Base Repository:** [ᴅʀᴇᴀᴍxʙᴏᴛᴢ](https://github.com/DreamXBotz/Auto_Filter_Bot.git)
-- **Thank You To All [Contributors](https://github.com/NBBotz/Auto_Filter_Bot/graphs/contributors) For Your Valuable Contributions To This Repository!**
+- **Base Repository:** [M◍viε⁠ ｡Hᴗ⁠b ｡4U](https://t.me/moviehub4u_update)
+- **Thank You To All [Naruto](https://t.me/dvl_naruto_06) For Your Valuable Contributions To This Repository!**
 
 
 # Bugs & Fixes  
