@@ -1346,6 +1346,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
+                    InlineKeyboardButton(text="🖤", callback_data="topsearch"),
+                    InlineKeyboardButton(text="⚡", callback_data="premium"),
+                    InlineKeyboardButton(text="🙋", callback_data="me"),
+                    InlineKeyboardButton(text="🤑", callback_data="earn"),
+                    InlineKeyboardButton(text="💌", callback_data="disclaimer"),
+                ],[
                     InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('ᴛʀᴇɴᴅɪɴɢ ', callback_data="topsearch"),
@@ -1928,10 +1934,10 @@ async def auto_filter(client, msg, spoll=False):
             settings = await get_settings(message.chat.id)
             if not files:
                 if settings["spell_check"]:
-                    ai_sts = await m.edit('𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃, 𝚂𝚄𝙿𝙴𝚁 𝙰𝙸 𝙸𝚂 𝙲𝙷𝙴𝙰𝙲𝙺𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝚂𝙿𝙴𝙻𝙻𝙸𝙽𝙶')
+                    ai_sts = await m.edit('𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐌𝐢𝐬𝐭𝐚𝐤𝐞 𝐲𝐫𝐫 🤧, 𝐀𝐈 𝐂𝐡𝐞𝐚𝐜𝐤𝐢𝐧𝐠 𝐲𝐨𝐮𝐫 𝐬𝐩𝐞𝐥𝐥𝐢𝐧𝐠')
                     is_misspelled = await ai_spell_check(chat_id = message.chat.id,wrong_name=search)
                     if is_misspelled:
-                        await ai_sts.edit(f'<b>𝙰𝙸 𝚂𝚄𝙶𝙶𝙴𝚂𝚃𝙴𝙳 𝙼𝙴 ✅<code> {is_misspelled}</code> \n𝚂𝚘 𝙸𝚖 𝚂𝚎𝚊𝚛𝚌𝚑𝚒𝚗𝚐 𝙵𝚘𝚛<code>{is_misspelled}</code></b>')
+                        await ai_sts.edit(f'<b>𝐀𝐈 𝐒𝐮𝐠𝐠𝐞𝐬𝐭𝐞𝐝 𝐦𝐞 <code> {is_misspelled}</code> \n𝚂𝚘 𝙸𝚖 𝚂𝚎𝚊𝚛𝚌𝚑𝚒𝚗𝚐 𝙵𝚘𝚛<code>{is_misspelled}</code></b>')
                         await asyncio.sleep(2)
                         message.text = is_misspelled
                         await ai_sts.delete()
