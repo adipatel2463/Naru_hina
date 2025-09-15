@@ -42,14 +42,14 @@ REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002517228726') 
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hinata:hinata@cluster0.apfoz26.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Dvlnaruto:Dvlnaruto@cluster0.kstnhv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'SilentXBotz_files')
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), False) # Type True For Turn On MULTIPLE DB FUNTION 
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Dvlnaruto:Dvlnaruto@cluster0.kstnhv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_CHANGE_LIMIT = int(environ.get('DB_CHANGE_LIMIT', "383")) 
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://hinata:hinata@cluster0.apfoz26.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_CHANGE_LIMIT = int(environ.get('DB_CHANGE_LIMIT', "432")) 
 
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_group_bot_0')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/moviehub4u_update')
