@@ -1346,19 +1346,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton(text="🖤", callback_data="topsearch"),
-                    InlineKeyboardButton(text="⚡", callback_data="premium"),
-                    InlineKeyboardButton(text="🙋", callback_data="me"),
-                    InlineKeyboardButton(text="🤑", callback_data="earn"),
-                    InlineKeyboardButton(text="💌", callback_data="disclaimer"),
-                ],[
                     InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('ᴛʀᴇɴᴅɪɴɢ ', callback_data="topsearch"),
-                    InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ ', callback_data="premium"),
+                    InlineKeyboardButton('ᴛʀᴇɴᴅɪɴɢ', callback_data="topsearch"),
+                    InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ', callback_data="premium"),
                 ],[
                     InlineKeyboardButton('ᴅɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='disclaimer'),
-                    InlineKeyboardButton('ᴀʙᴏᴜᴛ ', callback_data='me')
+                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='me')
                 ],[
                     InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ', callback_data="earn")
                 ]]
