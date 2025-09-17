@@ -15,34 +15,34 @@ def is_enabled(value, default):
 
 
 SESSION = environ.get('SESSION', 'media_search')
-API_ID = int(environ.get('API_ID', '25059287'))
-API_HASH = environ.get('API_HASH', '5e7701953107a273724b07f2beaf8f17')
+API_ID = int(environ.get('API_ID', '22036935'))
+API_HASH = environ.get('API_HASH', 'e563640ea8c2dc61e122ff2e0c510daf')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/5a608fb56fad4143a4903-7fed0f633b41ecfddf.jpg https://graph.org/file/3f4e16434101aeb27cc7b-f850a34799a645fc46.jpg https://graph.org/file/03efb0111e22f005b5bc5-7539aa64e67e05c356.jpg https://graph.org/file/67bcabaac0ee7ade9aff2-6e39074263143eca4a.jpg https://graph.org/file/df89200ae13a8e9e4e7c2-0723e6d2a3e9720773.jpg ')).split() 
+PICS = (environ.get('PICS', 'https://graph.org/file/8a9323013649d4ecd9697-6165b7802cc9d260aa.jpg')).split() 
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/05c59cc6f4ce9d74674f3-ddd27c226f4bb23d08.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/03efb0111e22f005b5bc5-7539aa64e67e05c356.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/05c59cc6f4ce9d74674f3-ddd27c226f4bb23d08.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/f983d857f3ce40795e4b8.jpg'))
 FSUB_IMG = (environ.get('FSUB_IMG', 'https://graph.org/file/95cefa3272feec077b28a-78591fe27d4215c260.jpg')).split() 
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6964203412').split()] 
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002153653982 -1002701318235 -1002623667730').split()]
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002583655280'))  
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002635477308'))  
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1003081942933'))  
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002596920866')) 
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1432279675').split()] 
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002488461980 -1002352506605 -1001912547930').split()]
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002379108708'))  
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002811520383'))  
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002285705162'))  
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002720276212')) 
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002655119999') 
+reqst_channel = environ.get('REQST_CHANNEL_ID', '') 
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002517228726') 
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '') 
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Dvlnaruto:Dvlnaruto@cluster0.kstnhv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://aditya1234:Aditya2463@cluster0.2bhgy7i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'SilentXBotz_files')
 
@@ -51,13 +51,13 @@ MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False) # Type T
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 DB_CHANGE_LIMIT = int(environ.get('DB_CHANGE_LIMIT', "432")) 
 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_group_bot_0')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/moviehub4u_update')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/disscus_moviehub4u')
-UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/moviehub4u_update')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+ADO9sWnqIxw1ZDhl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/moviemagic_24')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Movie_Help24_Bot')
+UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/moviemagic_24')
 
-AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002282783745 -1002393557941 -1002594005991") # add multiple channels here, separated by single space
-AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002377815135') # add multiple channels here, separated by single space
+AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "") # add multiple channels here, separated by single space
+AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1003038668925') # add multiple channels here, separated by single space
 
 IS_VERIFY = is_enabled('IS_VERIFY', False)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '100'))
