@@ -237,7 +237,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<blockquote><b><a href="https://t.me/moviemagic_24">{file_name}</a></b></blockquote>\n\n<b> Uploaded By 🌿 : <a href="https://t.me/moviemagic_24">[ Movie Magic🤩 ]</a></b>"""
+    CAPTION = """<blockquote><b><a href="https://t.me/moviemagic_24">{file_name}</a></b></blockquote>\n\n<b> ❤️‍🔥𝗝𝗼𝗶𝗻 𝗨𝘀 @moviemagic_24⚡ : <a href="https://t.me/moviemagic_24"> Movie Magic🤩 </a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
